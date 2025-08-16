@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timer Example</title>
+</head>
+<body>
+  <div class="timer" id="timer">
+    <span id="days"></span>d
+    <span id="hours"></span>h
+    <span id="minutes"></span>m
+    <span id="seconds"></span>s
+  </div>
+
+  <script type="module">
+    import timer from './timer.js';
+    timer('#timer', '2025-12-31');
+  </script>
+</body>
+</html>
